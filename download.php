@@ -3,7 +3,10 @@
 		<title>Download - KunLauncher</title>
 	</head>
 	
-	<body>
+	<body>		
+		<p>
+		instructions:<br>
+
 		<?php
 		
 		$version;
@@ -14,13 +17,10 @@
 			$version = substr($version, strpos($version, '=') + 2, strlen($version));
 		}		
 		
-		echo "<a href='version/latest/latest.noexe' target='_blank' download>download kunlauncher version " . $version . "</a>";
+		echo "1. <a href='version/latest/latest.noexe' target='_blank' download>download kunlauncher version " . $version . "</a><br>";
 		
 		?>
 		
-		<p>
-		instructions:<br>
-		1. download latest.noexe<br>
 		2. rename to kunlauncher.exe <a href="about.html">(why?)</a><br>
 		3. open the thing<br>
 		</p>
